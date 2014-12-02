@@ -61,6 +61,7 @@ module.exports = {
          *  { srcPath: './js/src/', fileName: 'contact-us' }
          */
         bundles: [
+            { srcPath: './js/src/', fileName: 'main' },
         ],
 
         // Settings that get fed into UglifyJS.
