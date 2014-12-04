@@ -9,6 +9,7 @@ module.exports = {
      *  { srcPath: './css/src/', fileName: 'contact-us' }
      */
     bundles: [
+        { srcPath: './css/src/', fileName: 'main' }
     ],
 
     destPath: './css/',
