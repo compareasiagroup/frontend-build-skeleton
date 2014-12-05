@@ -16,18 +16,6 @@
     "yargs": "^1.3.1",
     "when": "^3.4.6",
     "underscore": "^1.6.0",
-    "chai": "^1.10.0",
-    "mocha": "^1.21.4",
-    "sinon": "^1.10.3",
-    "karma": "^0.12.28",
-    "karma-chai": "^0.1.0",
-    "karma-mocha": "^0.1.9",
-    "karma-sinon": "^1.0.3",
-    "karma-phantomjs-launcher": "^0.1.4",
-    "karma-junit-reporter": "^0.2.2",
-    "karma-requirejs": "^0.2.2",
-    "karma-browserify": "^1.0.0",
-
 
     "grunt": "~0.4.5",
     "grunt-contrib-watch": "^0.6.1",
@@ -40,7 +28,6 @@
     "grunt-contrib-requirejs": "~0.4.3",
     "grunt-browserify": "^3.0.1",
     "minifyify": "^4.1.1",
-
 
     "gulp": "~3.8.10",
     "gulp-plumber": "^0.6.5",
@@ -60,6 +47,18 @@
     "handlebars": "^2.0.0-beta.1",
     "hbsfy": "^2.1.0",
     "vinyl-buffer": "0.0.0",
-    "vinyl-source-stream": "^0.1.1"
+    "vinyl-source-stream": "^0.1.1",
+
+    "chai": "^1.10.0",
+    "mocha": "^1.21.4",
+    "sinon": "^1.10.3",
+    "karma": "^0.12.28",
+    "karma-chai": "^0.1.0",
+    "karma-mocha": "^0.1.9",
+    "karma-sinon": "^1.0.3",
+    "karma-phantomjs-launcher": "^0.1.4",
+    "karma-requirejs": "^0.2.2",
+    "karma-browserify": "^1.0.0",
+    "karma-junit-reporter": "^0.2.2"
   }
 }
