@@ -13,6 +13,7 @@ module.exports = {
      *  { srcPath: './css/src/', fileName: 'contact-us' }
      */
     bundles: [
+        { srcPath: './css/src/', fileName: 'main' }
     ],
 
     // Where to place the built bundles. Is prefixed with `destPath` from global settings.

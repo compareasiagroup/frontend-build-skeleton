@@ -70,6 +70,7 @@ module.exports = {
          *  { srcPath: './js/src/', fileName: 'contact-us', excludes: [] }
          */
         bundles: [
+            { srcPath: './js/src/', fileName: 'main', excludes: ['underscore'] },
         ],
 
         // Settings that get fed into UglifyJS.
