@@ -13,12 +13,6 @@ var loadingOverrides = {
     'default': ['styles', 'scripts', 'build', 'default']
 };
 
-// RequireJS has a templating module that needs loaded additionally.
-var globalSettings = require('./_global');
-if (globalSettings.moduleFormat === 'requirejs') {
-    loadingOverrides.watch.unshift('templates');
-}
-
 /**
  *  Acts as a module loader to require the necessary tasks for a
  *  particular task runner.
@@ -31,7 +25,7 @@ module.exports = function(runner) {
         modulesToLoad = loadingOverrides[desiredModule] || [desiredModule]; // Check for module loading overrides.
 
     modulesToLoad.forEach(function(module) {
-        console.log(' - Loading module', module);
-        require('./tasks/' + module + '/' + runner + '.js');
+        console.log(' FE Skeleton: Loading module - ' + module);
+        require('./tasks/' + module + '/');
     });
 };
